@@ -10,6 +10,9 @@ void main(){
 	char readChar2, chArray[20];
 	int num1, num2, num3, num4, num5;
 	char ch1, ch2, ch3, ch4, ch5;
+	
+	
+//你开我关，关键词不出现	
 printf("----------------------------------------\n");
 	chArray[0] = 98;
 	printf(chArray[0]);
