@@ -1,0 +1,51 @@
+const int num1=1,num_2=-2,num_0=0;
+const int num_a=0;
+const char ch_a='+',ch_0 = '0',ch__='_',ch_star='*',ch_plus='-';
+const char ch_B = 'B';
+
+int num3,num4,num_arry1[10];
+int num5;
+
+char ch_c,ch_d,ch2,ch_arry1[2];
+char ch_minus;
+int para_is_array(int n) {
+	printf("%s\n", n);
+}
+void para_is_void(int a, int b, int c, int d){
+	printf "asdf" a + b+c    +d);
+}
+void main(){
+	num5 = 10;
+	para_is_void(1, 2, num5, num1);
+}
+----------------------------------------------------------------------
+const char ch_B = 'B';
+
+int num3,num4,num_arry1[10];
+int num5;
+
+char ch_c,ch_d,ch2,ch_arry1[2];
+char ch_minus;
+int para_is_array(int n) {
+	printf("%s\n", n);
+}
+void para_is_void(int a, int b, int c, int d){
+	printf ("asdf", a + b+c    +d);
+}
+void main(){
+	num5 = 10;
+	scanf(num5);
+	switch (num5){
+		case 1:
+			printf("haha");
+		case 2:
+			printf("niya");
+		case 3:
+			printf("nima");
+		case 4:
+			printf("dengzheba");
+		default: 
+			printf("heheda");
+	}
+	para_is_void(1, 2, num5, num1);
+}

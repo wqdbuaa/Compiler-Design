@@ -1,0 +1,872 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"syn_",
+				"syn_sym"
+			],
+			[
+				"temp",
+				"temp_var_cur_"
+			],
+			[
+				"itmd",
+				"itmd_add"
+			],
+			[
+				"offse",
+				"offset"
+			],
+			[
+				"ex",
+				"explicit_return_flag"
+			],
+			[
+				"e",
+				"explicit_return_flag"
+			],
+			[
+				"is",
+				"isPlus"
+			],
+			[
+				"id",
+				"idsy"
+			],
+			[
+				"cha",
+				"charcon"
+			],
+			[
+				"syn",
+				"syn_sym"
+			],
+			[
+				"para",
+				"para_read_index_sp"
+			],
+			[
+				"get",
+				"get_addr_in_func"
+			],
+			[
+				"inde",
+				"index_func"
+			],
+			[
+				"str",
+				"str2Num"
+			],
+			[
+				"index",
+				"index"
+			],
+			[
+				"tgt_da",
+				"tgt_data"
+			],
+			[
+				"tgt",
+				"tgt_data_print"
+			],
+			[
+				"in",
+				"index1"
+			],
+			[
+				"tgt_daa",
+				"tgt_add_data"
+			],
+			[
+				"tgt_d",
+				"tgt_add_data"
+			],
+			[
+				"prt",
+				"prt_typ_2"
+			],
+			[
+				"offset",
+				"offset"
+			],
+			[
+				"end",
+				"end_of_definition_flag"
+			],
+			[
+				"off",
+				"offset1"
+			],
+			[
+				"thr",
+				"third"
+			],
+			[
+				"offs",
+				"offset1"
+			],
+			[
+				"fo",
+				"fourth"
+			],
+			[
+				"ele",
+				"else"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"gt",
+				"get_addr"
+			],
+			[
+				"idx",
+				"idx2"
+			],
+			[
+				"const",
+				"const2str"
+			],
+			[
+				"glo",
+				"glo_bound"
+			],
+			[
+				"mem",
+				"mem_offset"
+			],
+			[
+				"con",
+				"const2str"
+			],
+			[
+				"n",
+				"num2str"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"Inter",
+				"IdentifierTable"
+			],
+			[
+				"func",
+				"func_sequence"
+			],
+			[
+				"ret",
+				"ret_p"
+			],
+			[
+				"watc",
+				"watch_a"
+			],
+			[
+				"cur",
+				"current_function"
+			],
+			[
+				"current",
+				"current_function"
+			],
+			[
+				"par",
+				"par_ofst"
+			],
+			[
+				"op",
+				"operand1"
+			],
+			[
+				"tgt_",
+				"tgt_add"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"read",
+				"read_series"
+			],
+			[
+				"jmp",
+				"jmp_lab_cur1"
+			],
+			[
+				"jmp_lab",
+				"jmp_lab_gen"
+			],
+			[
+				"ju",
+				"jmp_lab_cur1"
+			],
+			[
+				"jump",
+				"jump_back"
+			],
+			[
+				"jum",
+				"jump_back"
+			],
+			[
+				"jmp_l",
+				"jmp_lab_gen"
+			],
+			[
+				"cdt",
+				"cdt2"
+			],
+			[
+				"jlc",
+				"jlc2"
+			],
+			[
+				"var",
+				"var_loc_intA"
+			],
+			[
+				"lbra",
+				"lbracket"
+			],
+			[
+				"assin",
+				"assignment"
+			],
+			[
+				"isNot",
+				"isNotFuncCallStatement"
+			],
+			[
+				"table",
+				"table_index"
+			],
+			[
+				"tab",
+				"table_index"
+			],
+			[
+				"tem",
+				"temp_var_cur"
+			],
+			[
+				"jm",
+				"jmp_lab_cur1"
+			],
+			[
+				"temp_",
+				"temp_var_gen"
+			],
+			[
+				"oprd",
+				"oprd1"
+			],
+			[
+				"syn_sym",
+				"syn_sym"
+			],
+			[
+				"syn_s",
+				"syn_sym"
+			],
+			[
+				"isRet",
+				"isRetFuncCallStatement"
+			],
+			[
+				"isCst",
+				"isCstDeclare"
+			],
+			[
+				"wath",
+				"watch_a"
+			],
+			[
+				"isRetF",
+				"isRetFuncDefinition"
+			],
+			[
+				"temp_var",
+				"temp_var_cur"
+			],
+			[
+				"ope",
+				"operand1"
+			],
+			[
+				"watch",
+				"watch_a"
+			],
+			[
+				"temp_va",
+				"temp_var_cur"
+			],
+			[
+				"gen",
+				"temp_var_gen"
+			],
+			[
+				"temp_v",
+				"temp_var_cur"
+			],
+			[
+				"wat",
+				"watch_a"
+			],
+			[
+				"ass",
+				"ass_stc"
+			],
+			[
+				"outfi",
+				"outfilePE"
+			],
+			[
+				"num",
+				"num_buff"
+			],
+			[
+				"enter",
+				"enter_tab"
+			],
+			[
+				"char",
+				"charcon"
+			],
+			[
+				"ob",
+				"objection"
+			],
+			[
+				"isvar",
+				"isVarDeclare"
+			],
+			[
+				"isret",
+				"isRetFuncDefinition"
+			],
+			[
+				"isVal",
+				"isVluParaTable"
+			],
+			[
+				"sym_buff",
+				"sym_buff_id"
+			],
+			[
+				"sym_b",
+				"sym_buff_id"
+			],
+			[
+				"sym",
+				"sym_buff"
+			],
+			[
+				"isVa",
+				"isVarDeclare"
+			],
+			[
+				"isVar",
+				"isVarDeclarePart"
+			],
+			[
+				"isCase",
+				"isCaseTable"
+			],
+			[
+				"isV",
+				"isVarDeclare"
+			],
+			[
+				"stirng",
+				"strings"
+			],
+			[
+				"rb",
+				"rbrace"
+			],
+			[
+				"isre",
+				"IsRtrStatment"
+			],
+			[
+				"isCas",
+				"isCaseTable"
+			],
+			[
+				"isD",
+				"IsDefault"
+			],
+			[
+				"iscon",
+				"isConst"
+			],
+			[
+				"isca",
+				"isCaseStatement"
+			],
+			[
+				"star",
+				"starsy"
+			],
+			[
+				"main",
+				"mainsy"
+			],
+			[
+				"symbol",
+				"syn_symbol"
+			],
+			[
+				"l",
+				"lbrace"
+			],
+			[
+				"void",
+				"voidsy"
+			],
+			[
+				"rbra",
+				"rbrace"
+			],
+			[
+				"isC",
+				"isCpdStatement"
+			],
+			[
+				"lb",
+				"lbrace"
+			],
+			[
+				"r",
+				"rbrace"
+			],
+			[
+				"isP",
+				"isPrmTable"
+			],
+			[
+				"isint",
+				"isIntVarDefinition"
+			],
+			[
+				"int",
+				"intcon"
+			],
+			[
+				"ch",
+				"character"
+			],
+			[
+				"co",
+				"comma"
+			],
+			[
+				"a",
+				"asn"
+			],
+			[
+				"var_loc",
+				"var_loc_int1"
+			],
+			[
+				"rer",
+				"ret_no_para"
+			],
+			[
+				"var_glo",
+				"var_glo_int0"
+			],
+			[
+				"varloc",
+				"var_loc_int1"
+			],
+			[
+				"var_lo",
+				"var_loc_intA"
+			],
+			[
+				"var_",
+				"var_glo_int1"
+			],
+			[
+				"var_loc_i",
+				"var_loc_intA"
+			],
+			[
+				"var_loc_char",
+				"var_loc_charA"
+			],
+			[
+				"var_loc_int",
+				"var_loc_int0"
+			],
+			[
+				"vac",
+				"var_loc_int0"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/13051259_test1.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/StandardSyntaxInput.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/test.asm",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/syntax_input_test.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/13051259_test2.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/SyntaxAnalyzer6.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/lexicalAnalyzer.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/tgtCodeOutput.asm",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/syntax_output.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/ErrorDetect.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/Tables.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/TargetCodeGenerator1.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/recovery/TargetCodeGenerator.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/TargetCodeGenerator.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/IntermediateCodeGenerator.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/recovery/SyntaxAnalyzer4.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/recovery/SyntaxAnalyzer3.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/SyntaxAnalyzer3.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/SyntaxAnalyzer3 - Copy.h",
+		"/G/School Files Noooooooootice/实习/ACT/11.16/Code/modbus-tk-master/modbus_tk/modbus.py",
+		"/G/School Files Noooooooootice/实习/ACT/11.16/Code/modbus-tk-master/modbus_tk/modbus_tcp.py",
+		"/C/Users/mathew/Desktop/2.1.0.c",
+		"/C/Users/mathew/Desktop/未命名1.cpp",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/SyntaxAnalyzer3.h",
+		"/G/School Files Noooooooootice/大三上/Compiler/code reading/Pascal-P-Round2Mod.pas",
+		"/G/School Files Noooooooootice/大二上/数据结构与算法/Programs/3.3.0.c",
+		"/G/School Files Noooooooootice/大二上/数据结构与算法/Programs/2.5.0.c",
+		"/G/School Files Noooooooootice/大二上/数据结构与算法/Programs/03.c",
+		"/G/School Files Noooooooootice/大二上/数据结构与算法/Programs/2.4.2.c",
+		"/G/School Files Noooooooootice/大二上/数据结构与算法/Programs/011.cpp",
+		"/G/School Files Noooooooootice/大二上/数据结构与算法/Programs/02.cpp",
+		"/G/School Files Noooooooootice/大二上/数据结构与算法/Programs/01.cpp",
+		"/G/School Files Noooooooootice/大三上/Compiler/code reading/PL0.pas",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/testCode2.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/output.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/testCode1.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/main.cpp",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/SyntaxAnalyzer2.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/SyntaxAnalyzer1.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/SyntaxAnalyzer.h",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/testCodeAll.cpp",
+		"/C/Users/mathew/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/lexical_output.txt",
+		"/C/Users/mathew/AppData/Local/Temp/7zO89AA.tmp/main.cpp",
+		"/C/Users/mathew/AppData/Local/Temp/7zOE9D0.tmp/main.cpp",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/lexical_output1.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/compiler/compiler/SyntaxAnalysis.cpp",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/obj/SyntaxAnalyzer.h",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/obj/lexicalAnalysis.h",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/main.cpp",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/testCode2.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/testCode.txt",
+		"/G/School Files Noooooooootice/大三上/Compiler/code reading/Pascal-P用于参考.pas",
+		"/G/School Files Noooooooootice/CompilerDesign/提交作业成果/14061075_修闽珂_词法分析/14061075_test.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/output.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/testCode1.txt",
+		"/C/Users/mathew/Desktop/sublime_text.lnk",
+		"/G/School Files Noooooooootice/CompilerDesign/CompilerCB/obj/test0.h",
+		"/G/School Files Noooooooootice/CompilerDesign/work2_syntax interpreting/14061075_test.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/work2_syntax interpreting/output.txt",
+		"/G/School Files Noooooooootice/CompilerDesign/work2_syntax interpreting/output",
+		"/G/School Files Noooooooootice/大三上/Big data/hadoop作业成果/MatrixMult.java",
+		"/G/School Files Noooooooootice/大三上/Big data/hadoop作业成果/gene.java",
+		"/G/School Files Noooooooootice/大三上/Big data/hadoop作业成果/aymFriend.java",
+		"/G/School Files Noooooooootice/大三上/Big data/hadoop作业成果/friendCount.java",
+		"/G/School Files Noooooooootice/大三上/Big data/hadoop作业成果/Sql1.java",
+		"/G/School Files Noooooooootice/大三上/Big data/hadoop作业成果/InvertedIndex1.java",
+		"/C/Users/mathew/Desktop/PL_0语言编译程序分析_别人的.pas"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"isexpression",
+			"ch_c",
+			"#####",
+			"isret",
+			"i_func_add",
+			"i_func_calc",
+			"11",
+			"$at",
+			"$t9",
+			"\"end\"",
+			"end",
+			"expression",
+			"integer",
+			"isplus",
+			"'+'",
+			"$0",
+			"para\"",
+			"para",
+			"casetable",
+			"ret_no_para",
+			"ret_no_para()",
+			"var_loc_intA[2]",
+			"-var_",
+			"\"   \"",
+			"   ",
+			"    ",
+			"call",
+			"return",
+			"\"[]->\"",
+			"\"[]=\"",
+			"bge",
+			"#####",
+			"para_index_sp",
+			"para_",
+			"$tp",
+			"tp",
+			"$tp",
+			"\"tp\"",
+			"\"pt\"",
+			"\"para\"",
+			"para",
+			"prt",
+			"scf",
+			"#####",
+			"prt",
+			"prt_pyt",
+			"prt_pyt_2???",
+			"prt_typ_2",
+			"v0",
+			"main",
+			"func",
+			"prt",
+			"current_function",
+			"current_func",
+			"current",
+			"get_addr",
+			"\"lw\", \"$t3\"",
+			"\"sw\", \"$t3\"",
+			"\"sw\"",
+			"sw",
+			"$fp",
+			"lab",
+			"fourth",
+			"$v0",
+			"get_addr",
+			"string current_function",
+			"current_function",
+			"interval",
+			"intverval",
+			"invervel",
+			"ret_val",
+			"\"call\"",
+			"call",
+			"para",
+			"current_function",
+			"scf",
+			"str2num",
+			"current_function",
+			"ic",
+			"inter",
+			"current_function",
+			"ic",
+			"scf",
+			"scanf",
+			"scf",
+			"chsLgcOprt()",
+			"itmd_add",
+			"b",
+			">",
+			"\">\"",
+			"transNum",
+			"trans",
+			"trand",
+			"order",
+			"\");\n",
+			"enter_",
+			"enter_tab",
+			"enter_atab",
+			"enter_tab",
+			"num",
+			"enter_tab",
+			"ret_p",
+			"tableitemscan",
+			"enter_tab",
+			"main",
+			"fib",
+			"main",
+			"index",
+			"indes",
+			"itmd_add(\"-\"",
+			"assignment",
+			"itmd_add",
+			"enter_tab",
+			"itmd_add",
+			"tc",
+			"ic",
+			"enter_tab",
+			"'/' ",
+			"isNot",
+			"\"[]\"",
+			"isStatement",
+			"calpar",
+			"jump_out",
+			"loop",
+			"iscasesta",
+			"iscasetable",
+			"iscases",
+			"//intermediate code generating"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "compiler.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

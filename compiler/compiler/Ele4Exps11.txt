@@ -1,0 +1,276 @@
+   const                 int                   1                cona
+   const                 int                   2                conb
+   const                 int                   3                conc
+   const                 int                   4                cong
+   const                 int                   5                conh
+   const                 int                   6                coni
+   const                 int                   7                conj
+     int                                      10                   a
+     int                                                           c
+    func                void                               emptyfunc
+     end                                                   emptyfunc
+    func                void                              emptyfunc2
+     end                                                  emptyfunc2
+    func                char                                testchar
+  return                                                         '0'
+     end                                                    testchar
+    func                 int                               fibonacci
+    para                 int                                       n
+   const                 int                  -1                cona
+    char                                                       testc
+     bne                   n                   1                Lab0
+  return                                                           1
+     lab                                                        Lab0
+     beq                   n                   2                Lab1
+       +                   n                  -1                  #0
+    fupa                                                          #0
+    call           fibonacci                                      #1
+       +                   n                  -2                  #2
+    fupa                                                          #2
+    call           fibonacci                                      #3
+       +                  #3                  +0                  #4
+       +                  #1                  #4                  #5
+  return                                                          #5
+     lab                                                        Lab1
+  return                                                           1
+     end                                                   fibonacci
+    func                void                                    move
+    para                char                                       a
+    para                char                                       b
+   const                 int                   1            testcon1
+   const                char                 '1'            testcon2
+     prt                                     'M'           prt_typ_3
+     prt              "OVE "                               prt_typ_2
+     prt                                       a           prt_typ_3
+     prt              " TO "                   b           prt_typ_1
+     prt                 " "                               prt_typ_2
+     end                                                        move
+    func                void                                   hanoi
+    para                 int                                       h
+    para                char                                       l
+    para                char                                       m
+    para                char                                       r
+     ble                   2                   h                Lab2
+    fupa                                                           l
+    fupa                                                           r
+    call                move                                        
+  return                                                            
+     prt      "RETURN ERROR"                               prt_typ_2
+     lab                                                        Lab2
+       +                   h                  -1                  #6
+    fupa                                                          #6
+    fupa                                                           l
+    fupa                                                           r
+    fupa                                                           m
+    call               hanoi                                        
+    fupa                                                           l
+    fupa                                                           r
+    call                move                                        
+       +                   h                  -1                  #7
+    fupa                                                          #7
+    fupa                                                           m
+    fupa                                                           l
+    fupa                                                           r
+    call               hanoi                                        
+     end                                                       hanoi
+    func                 int                                getpower
+    para                 int                                       n
+    para                 int                                      le
+     int                                                        move
+     blt                  le                   2                Lab3
+       +                  le                  -1                  #8
+    fupa                                                           n
+    fupa                                                          #8
+    call            getpower                                      #9
+       =                move                                      #9
+       +                  le                  -1                 #10
+       *                move                   n                 #11
+     []=                   a                 #10                 #11
+       *                   n                move                 #12
+  return                                                         #12
+     lab                                                        Lab3
+     bgt                   1                  le                Lab4
+       +                  le                  -1                 #13
+     []=                   a                 #13                   n
+  return                                                           n
+     lab                                                        Lab4
+     end                                                    getpower
+    func                 int                                  getsqr
+    para                 int                                       n
+     int                                                          _i
+       =                  _i                                       1
+     lab                                                        Lab5
+       /                   n                  _i                 #14
+     bge                  _i                 #14                Lab6
+       +                  +1                  _i                 #15
+       =                  _i                                     #15
+     jmp                                                        Lab5
+     lab                                                        Lab6
+       !                   n                                     #16
+       *                  _i                  _i                 #17
+       +                 #16                 #17                 #18
+       +                  -1                  _i                 #19
+       +                  _i                  -1                 #20
+       *                 #19                 #20                 #21
+       !                 #21                                     #22
+       +                   n                 #22                 #23
+     bge                 #18                 #23                Lab7
+  return                                                          _i
+     lab                                                        Lab7
+       +                  _i                  -1                 #24
+  return                                                         #24
+     end                                                      getsqr
+    func                void                                    main
+   const                char                 'A'                cond
+   const                char                 'B'                cone
+   const                char                 'C'                conf
+   const                char                 '+'                con1
+   const                char                 '-'                con2
+   const                char                 '*'                con3
+   const                char                 '/'               con3_
+   const                 int                 100             testcon
+     int                                                           c
+     int                                                         num
+     int                                                           i
+     int                                                         fib
+     int                                      10              testaj
+     int                                                         sqr
+     int                                     100              testai
+     int                                                          a_
+     int                                                         a_a
+     int                                                          a0
+     int                                                         a00
+     int                                                     testai1
+     int                                                     testai2
+     int                                                     testai3
+     int                                                     testai4
+     int                                                     testai5
+     int                                                     testai6
+    char                                                          c1
+    char                                                          c2
+    char                                                          c3
+    char                                                          c4
+    char                                                          c5
+    char                                                          c6
+       =                 a_a                             12345678912
+       =                  a_                                    cond
+     []=              testai                   0                  +5
+    []->              testai                   0                 #25
+     []=              testai                 #25                   1
+     []=              testai                con1                   2
+     scf                                                           c
+     scf                                                         num
+  switch                                                           c
+     bne                   c                   1                Lab9
+    fupa                                                         num
+    fupa                                                          10
+    call            getpower                                     #26
+       =                   i                                       0
+     lab                                                       Lab10
+     bge                   i                  10               Lab11
+       +                   i                  +1                 #27
+     prt                "NO"                 #27           prt_typ_1
+    []->                   a                   i                 #28
+     prt                 ":"                 #28           prt_typ_1
+     prt                 " "                               prt_typ_2
+     prt                  ""                               prt_typ_2
+     beq                   1                   0               Lab12
+       +                   i                  +1                 #29
+       =                   i                                     #29
+     lab                                                       Lab12
+     jmp                                                       Lab10
+     lab                                                       Lab11
+     jmp                                                        Lab8
+     lab                                                        Lab9
+     lab                                                        Lab8
+  switch                                                         end
+  switch                                                           c
+     bne                   c                  +2               Lab14
+    fupa                                                         num
+    fupa                                                        cond
+    fupa                                                        cone
+    fupa                                                        conf
+    call               hanoi                                        
+     jmp                                                       Lab13
+     lab                                                       Lab14
+     bne                   c                   3               Lab15
+    fupa                                                         num
+    call           fibonacci                                     #30
+       =                 fib                                     #30
+     prt                                     fib           prt_typ_3
+     jmp                                                       Lab13
+     lab                                                       Lab15
+     lab                                                       Lab13
+  switch                                                         end
+  switch                                                           c
+     bne                   c                   4               Lab17
+    fupa                                                         num
+    call              getsqr                                     #31
+       =                 sqr                                     #31
+     prt                                     sqr           prt_typ_3
+     jmp                                                       Lab16
+     lab                                                       Lab17
+     bne                   c                   5               Lab18
+    call            testchar                                     #32
+     prt                                     #32           prt_typ_3
+       *                   3                   2                 #33
+       /                 #33                   6                 #34
+    []->              testai                   0                 #35
+       *                 #34                 #35                 #36
+     prt                                     #36           prt_typ_3
+     jmp                                                       Lab16
+     lab                                                       Lab18
+     bne                   c                   6               Lab19
+    []->              testai                   0                 #37
+     beq                 #37                   0               Lab20
+     prt         "IFCORRECT"                               prt_typ_2
+     lab                                                       Lab20
+     lab                                                       Lab21
+    []->              testai                   0                 #38
+     beq                 #38                   0               Lab22
+    []->              testai                   0                 #39
+     prt                                     #39           prt_typ_3
+    []->              testai                   0                 #40
+       !                   1                                     #41
+       +                 #40                 #41                 #42
+     []=              testai                   0                 #42
+     jmp                                                       Lab21
+     lab                                                       Lab22
+     jmp                                                       Lab16
+     lab                                                       Lab19
+     bne                   c                  -7               Lab23
+     scf                                                     testai1
+     scf                                                     testai2
+     scf                                                     testai3
+     scf                                                     testai4
+     scf                                                     testai5
+     scf                                                     testai6
+     prt                                 testai1           prt_typ_3
+     prt                                 testai2           prt_typ_3
+     prt                                 testai3           prt_typ_3
+     prt                                 testai4           prt_typ_3
+     prt                                 testai5           prt_typ_3
+     prt                                 testai6           prt_typ_3
+     jmp                                                       Lab16
+     lab                                                       Lab23
+     bne                   c                   0               Lab24
+     scf                                                          c1
+  switch                                                          c1
+     bne                  c1                 'a'               Lab26
+     prt                                       1           prt_typ_3
+     jmp                                                       Lab25
+     lab                                                       Lab26
+     bne                  c1                 'b'               Lab27
+     prt                                       2           prt_typ_3
+     jmp                                                       Lab25
+     lab                                                       Lab27
+     prt                ">="                   3           prt_typ_1
+     lab                                                       Lab25
+  switch                                                         end
+     jmp                                                       Lab16
+     lab                                                       Lab24
+     prt             "ERROR"                               prt_typ_2
+     lab                                                       Lab16
+  switch                                                         end
+  return                                                            
+     end                                                        main

@@ -1,0 +1,2 @@
+near line 106 the token hanoi: hasn't been defined yet.
+near line 108 the token hanoi: hasn't been defined yet.

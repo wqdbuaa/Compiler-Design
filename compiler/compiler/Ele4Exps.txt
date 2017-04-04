@@ -1,0 +1,220 @@
+   const                 int                   0               num_0
+   const                 int                   1               num_1
+   const                 int                   2               num_2
+   const                 int                   3               num_3
+     int                                      20                   s
+     int                                                      num_v1
+     int                                                      num_v2
+     int                                                      num_v3
+     int                                                      num_v4
+     int                                                      num_v5
+    func                 int                                     fib
+    para                 int                                       n
+     bge                   n                   1                Lab0
+       +              num_v2                   1                  #0
+       =              num_v2                                      #0
+  return                                                          -1
+     lab                                                        Lab0
+     bne                   n                   1                Lab1
+       +              num_v2                   1                  #1
+       =              num_v2                                      #1
+  return                                                           1
+     jmp                                                        Lab2
+     lab                                                        Lab1
+     bne                   n                   2                Lab3
+       +              num_v2                   1                  #2
+       =              num_v2                                      #2
+  return                                                           1
+     lab                                                        Lab3
+     lab                                                        Lab2
+       +              num_v2                   1                  #3
+       =              num_v2                                      #3
+       -                   n                   1                  #4
+    fupa                                                          #4
+    call                 fib                                      #5
+       -                   n                   2                  #6
+    fupa                                                          #6
+    call                 fib                                      #7
+       +                  #5                  #7                  #8
+  return                                                          #8
+     end                                                         fib
+    func                void                                   hanoi
+    para                 int                                       i
+    para                char                                       x
+    para                char                                       y
+    para                char                                       z
+     bne                   i                   1                Lab4
+     prt                                       x           prt_typ_3
+     prt                "->"                               prt_typ_2
+     prt                                       z           prt_typ_3
+     prt                "\n"                               prt_typ_2
+     jmp                                                        Lab5
+     lab                                                        Lab4
+       -                   i                   1                  #9
+    fupa                                                          #9
+    fupa                                                           x
+    fupa                                                           z
+    fupa                                                           y
+    call               hanoi                                        
+     prt                                       x           prt_typ_3
+     prt                "->"                               prt_typ_2
+     prt                                       z           prt_typ_3
+     prt                "\n"                               prt_typ_2
+       -                   i                   1                 #10
+    fupa                                                         #10
+    fupa                                                           y
+    fupa                                                           x
+    fupa                                                           z
+    call               hanoi                                        
+       +              num_v1                   1                 #11
+       =              num_v1                                     #11
+  return                                                            
+     lab                                                        Lab5
+     end                                                       hanoi
+    func                void                                    swap
+    para                 int                                       i
+    para                 int                                       j
+     int                                                        temp
+    []->                   s                   i                 #12
+       =                temp                                     #12
+    []->                   s                   j                 #13
+     []=                   s                   i                 #13
+     []=                   s                   j                temp
+       +              num_v3                   1                 #14
+       =              num_v3                                     #14
+  return                                                            
+     end                                                        swap
+    func                void                               quicksort
+    para                 int                                     low
+    para                 int                                    high
+     int                                                           i
+     int                                                        last
+     bge                 low                high                Lab6
+       =                last                                     low
+       +                 low                   1                 #15
+       =                   i                                     #15
+   while                                                       begin
+     lab                                                        Lab7
+     bgt                   i                high                Lab8
+    []->                   s                   i                 #16
+    []->                   s                 low                 #17
+     bge                 #16                 #17                Lab9
+       +                last                   1                 #18
+       =                last                                     #18
+    fupa                                                        last
+    fupa                                                           i
+    call                swap                                        
+     lab                                                        Lab9
+       +                   i                   1                 #19
+       =                   i                                     #19
+     jmp                                                        Lab7
+     lab                                                        Lab8
+   while                                                         end
+    fupa                                                        last
+    fupa                                                         low
+    call                swap                                        
+       +                last                  -1                 #20
+    fupa                                                         low
+    fupa                                                         #20
+    call           quicksort                                        
+       +                last                   1                 #21
+    fupa                                                         #21
+    fupa                                                        high
+    call           quicksort                                        
+     lab                                                        Lab6
+  return                                                            
+       +              num_v4                   1                 #22
+       =              num_v4                                     #22
+     end                                                   quicksort
+    func                void                                    main
+     int                                                           i
+       =              num_v1                                       0
+       =              num_v2                                       0
+       =              num_v3                                       0
+       =              num_v4                                       0
+       =              num_v5                                       0
+     []=                   s                   0                   4
+     []=                   s                   1                   2
+     []=                   s                   2                   9
+     []=                   s                   3                   1
+     []=                   s                   4                   5
+     []=                   s                   5                   6
+     []=                   s                   6                   8
+     []=                   s                   7                   7
+     []=                   s                   8                   3
+     prt     "before sort :"                               prt_typ_2
+       =                   i                                       0
+   while                                                       begin
+     lab                                                       Lab10
+     bge                   i                   8               Lab11
+    []->                   s                   i                 #23
+     prt                 " "                 #23           prt_typ_1
+       +                   i                   1                 #24
+       =                   i                                     #24
+     jmp                                                       Lab10
+     lab                                                       Lab11
+   while                                                         end
+    fupa                                                           0
+    fupa                                                           8
+    call           quicksort                                        
+     prt      "after sort :"                               prt_typ_2
+       =                   i                                       0
+   while                                                       begin
+     lab                                                       Lab12
+     bge                   i                   8               Lab13
+    []->                   s                   i                 #25
+     prt                 " "                 #25           prt_typ_1
+       +                   i                   1                 #26
+       +                 #26               hanoi                 #27
+       =                   i                                     #27
+     jmp                                                       Lab12
+     lab                                                       Lab13
+   while                                                         end
+     prt                "\n"               hanoi           prt_typ_1
+    fupa                                                           3
+    fupa                                                         'a'
+    fupa                                                         'b'
+    fupa                                                         'c'
+    call               hanoi                                        
+     prt"\n hanoi tower return how many times? "              num_v1           prt_typ_1
+     prt"\n fib return how many times? "              num_v2           prt_typ_1
+     prt"\n swap return how many times? "              num_v3           prt_typ_1
+     prt"\n QuIcksORT tower return how many times? "              num_v4           prt_typ_1
+     prt"\n----------------------------------------"                               prt_typ_2
+       *                  12                  15                 #28
+       *                  86                  84                 #29
+       +                 -87                 #29                 #30
+       *                 #28                 #30                 #31
+    []->                   s                   3                 #32
+       +                 #31                 #32                 #33
+  switch                                                         #33
+     bne                 #33                   1               Lab15
+     prt"\n not this value!!!!"                               prt_typ_2
+     jmp                                                       Lab14
+     lab                                                       Lab15
+     bne                 #33                 'b'               Lab16
+     prt"\n not this value too!!!!"                               prt_typ_2
+     jmp                                                       Lab14
+     lab                                                       Lab16
+     bne                 #33                 'c'               Lab17
+     prt"\n not this value too!!!!"                               prt_typ_2
+     jmp                                                       Lab14
+     lab                                                       Lab17
+     bne                 #33             1284664               Lab18
+     prt         "\n Ok !!!"                               prt_typ_2
+     jmp                                                       Lab14
+     lab                                                       Lab18
+     prt      "\n so be it."                               prt_typ_2
+     lab                                                       Lab14
+  switch                                                         end
+     prt"\n----------------------------------------"                               prt_typ_2
+  switch                                                           3
+     bne                   3                   1               Lab20
+     prt"\n should not be output"                               prt_typ_2
+     jmp                                                       Lab19
+     lab                                                       Lab20
+     lab                                                       Lab19
+  switch                                                         end
+     prt"\n----------------------------------------"                               prt_typ_2
+  return                                                            
+     end                                                        main

@@ -1,0 +1,24 @@
+输入:5
+输出:
+start-n
+120\n
+12|5|9
+testCompare: 7
+result1
+result3
+result5
+default4
+MPValue: 6
+-114
+输入：10
+输出：
+start-n
+3628800\n
+12|5|9
+testCompare: 7
+result1
+result3
+result5
+default4
+MPValue: 6
+-114
