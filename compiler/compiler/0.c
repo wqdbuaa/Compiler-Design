@@ -6,6 +6,9 @@ int num1;
 int num3,num4,num_array1[10];
 int num5;
 
+
+
+//你开你关，关键词出现
 char ch_c,ch_d,ch2,ch_array1[2];
 char ch_minus;
 int easy_int(){
